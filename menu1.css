@@ -1,0 +1,123 @@
+#divPrincipal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: cadetblue;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-style: double;
+}
+#divPrincipal h1{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#logoCecy img{
+    position: fixed;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+
+}
+#sideMenu {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background-color: cadetblue;
+    transition: left 0.3s ease;
+    }
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sideMenu ul li {
+    padding: 10px;
+}
+
+#sideMenu ul li a {
+    color: black;
+    text-decoration: none;
+}
+#separa1{
+    height: 100px;
+}
+#separa2{
+    height: 100px;
+}
+#separa3{
+    height: 100px;
+}
+#separa4{
+    height: 100px;
+}
+
+#openMenu {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    background-color: cadetblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#divContexto{
+    text-align: center;
+}
+
+.menu {
+    
+    display: none;
+}
+
+#footer {
+    background-color: cadetblue;
+    color: black;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons .icon {
+    margin-right: 10px;
+}
+
+.user-options a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+#divInfo{
+    text-align: center;
+    padding: 150px;
+}
